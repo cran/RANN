@@ -41,7 +41,7 @@ using namespace std;					// make std:: available
 //----------------------------------------------------------------------
 
 const int		STRING_LEN		= 500;	// maximum string length
-const double	EPSILON			= 1E-5; // small number for float comparison
+//const double	EPSILON			= 1E-5; // small number for float comparison
 
 enum ANNtreeType {KD_TREE, BD_TREE};	// tree types (used in loading)
 
@@ -439,6 +439,7 @@ static ANNkd_ptr annReadTree(
 	}
 	else {
 		annError("Illegal node type in dump file", ANNabort);
+    return NULL;            // to keep the compiler happy
 #ifndef RANN
 		exit(0);								// to keep the compiler happy
 #endif
