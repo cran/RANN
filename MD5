@@ -1,13 +1,13 @@
-0b6a48fd7b0211cadca32b51f93bc547 *DESCRIPTION
-1911d988bc617712c12fad3f4ce54ff7 *NAMESPACE
-5738800974c391fa6037c69358946f78 *NEWS
+35e62cba2f107c857a87a2846cbf1560 *DESCRIPTION
+eb2345cdcac3c0567e127b5da369e442 *NAMESPACE
+eca907f08b3908b6b10524e394c69ac6 *NEWS
 d7cc4b707c0e6d81f162bed00d66652e *R/RANN-package.R
-be02558daec875db4e5d925bda17daf2 *R/nn.R
+610bf057b04046a3ae44a738fd518dc0 *R/nn.R
 38acc7479b8ce04803d023f617ca0a8f *R/zzz.R
-a1c5777d624ec63cdecb7a982ac0b322 *README.md
+a096b3a49dc4291e561198e422248a11 *README.md
 c1b536f30531e76269bc9aed6dee2e0d *inst/COPYRIGHT
-93d1476bdbe4f86df72b9a1721cfd978 *man/RANN-package.Rd
-86ef118b5cfc0dff8dde22063fe6d751 *man/nn2.Rd
+dff5ddde62f5981e3277e85744eb5320 *man/RANN-package.Rd
+2d9788f27996af6cffd90c15fdfadf4f *man/nn2.Rd
 d8c332dc472ea44eaa7f9a151d96c192 *src/ANN.cpp
 68373313b1f2df0b85eb53667c8e2ebe *src/ANN/ANN.h
 01e516b35b438e720b5dcf2763c4ab06 *src/ANN/ANNperf.h
@@ -21,6 +21,7 @@ e18365b2dd7d9a0ee7cca1b8d94fe8ee *src/bd_search.cpp
 b8d59ae85cf1b9591e279a05d752dc1a *src/bd_tree.cpp
 76d2a54c8dc5c0356e945ceb60a3e9fe *src/bd_tree.h
 17c58f7ebc260012b27ef3950c41c0c5 *src/brute.cpp
+6a6ea39ee33f78498bbcd61e9ccb0e0a *src/init.c
 7bebf78ff3e8f0ed4c079aa81f60520a *src/kd_dump.cpp
 7295e904ff9393e85abfc2ed0740be74 *src/kd_fix_rad_search.cpp
 55878b078710ca33e3d14a48dd8d79f4 *src/kd_fix_rad_search.h
@@ -37,4 +38,4 @@ d412681fdefb6fad8061db1c69d88a4e *src/kd_util.h
 d682bda57b5450eeca0d0afec4454c55 *src/pr_queue.h
 0afc4a14961367b001cbc6b7519fb462 *src/pr_queue_k.h
 b33a308790520f63dfa27661bddc3aec *tests/testthat.R
-2c62610cbc56729b9f08701588b4b7f6 *tests/testthat/test-nn.R
+4ef4b9a6f10938db56480e066b351103 *tests/testthat/test-nn.R

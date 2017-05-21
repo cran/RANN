@@ -29,7 +29,7 @@
 #'  \code{data}. \bold{d}, the number of columns, must be the same as 
 #'  \code{data}. If missing, defaults to \code{data}.
 #'@param k The maximum number of nearest neighbours to compute. The default 
-#'  value is set to the smaller of the number of columsn in data
+#'  value is set to the smaller of the number of columnns in data
 #'@param treetype Character vector specifying the standard \code{'kd'} tree or a
 #'  \code{'bd'} (box-decomposition, AMNSW98) tree which may perform better for 
 #'  larger point sets
@@ -73,10 +73,10 @@ nn2 <- function(data, query=data, k=min(10,nrow(data)),treetype=c("kd","bd"),
   ND		    <- nrow(data)
   if(is.null(ND)) ND=length(data)
   NQ		    <- nrow(query)
-  if(is.null(NQ)) NQ=length(data)
+  if(is.null(NQ)) NQ=length(query)
   
   # Check that both datasets have same dimensionality
-  if(query_dimension != query_dimension)
+  if(dimension != query_dimension)
     stop("Query and data tables must have same dimensions")	
   
   if(k>ND)
