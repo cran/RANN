@@ -16,9 +16,9 @@ BugReports: https://github.com/jefferis/RANN/issues
 Encoding: UTF-8
 License: GPL (>= 3)
 Suggests: testthat
-Version: 2.6
-RoxygenNote: 6.0.1
+Version: 2.6.1
+RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2018-07-16 17:43:57 UTC; jefferis
+Packaged: 2019-01-08 19:24:15 UTC; jefferis
 Repository: CRAN
-Date/Publication: 2018-07-16 18:10:02 UTC
+Date/Publication: 2019-01-08 20:00:04 UTC

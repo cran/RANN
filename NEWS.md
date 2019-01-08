@@ -1,3 +1,8 @@
+# RANN 2.6.1
+
+* Fix Solaris compile error (as requested by BDR, #25)
+* Correct usage for compiler vs preprocessor flags (#26)
+
 # RANN 2.6.0
 
 * remove register key word from libANN code (at request of CRAN, #23)
