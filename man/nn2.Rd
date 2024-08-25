@@ -4,9 +4,15 @@
 \alias{nn2}
 \title{Nearest Neighbour Search}
 \usage{
-nn2(data, query = data, k = min(10, nrow(data)), treetype = c("kd",
-  "bd"), searchtype = c("standard", "priority", "radius"), radius = 0,
-  eps = 0)
+nn2(
+  data,
+  query = data,
+  k = min(10, nrow(data)),
+  treetype = c("kd", "bd"),
+  searchtype = c("standard", "priority", "radius"),
+  radius = 0,
+  eps = 0
+)
 }
 \arguments{
 \item{data}{An \bold{M} x \bold{d} data.frame or matrix, where each of the 
@@ -48,7 +54,7 @@ The \code{RANN} package utilizes the Approximate Near Neighbor (ANN) C++
 library, which can give the exact near neighbours or (as the name suggests) 
 approximate near neighbours to within a specified error bound.  For more 
 information on the ANN library please visit 
-\url{http://www.cs.umd.edu/~mount/ANN/}.
+\url{https://www.cs.umd.edu/~mount/ANN/}.
 
 Search types: \code{priority} visits cells in increasing order of distance 
 from the query point, and hence, should converge more rapidly on the true 
