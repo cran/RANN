@@ -16,6 +16,7 @@ Finds the k nearest neighbours for every point in a given dataset in O(N log N) 
 
 Authors:
 \itemize{
+  \item Gregory Jefferis \email{jefferis@gmail.com} (\href{https://orcid.org/0000-0002-0587-9355}{ORCID})
   \item Samuel E. Kemp
   \item Sunil Arya (\href{https://orcid.org/0000-0003-0939-4192}{ORCID}) [copyright holder]
   \item David Mount (\href{https://orcid.org/0000-0002-3290-8932}{ORCID}) [copyright holder]

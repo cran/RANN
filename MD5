@@ -1,13 +1,13 @@
-50e2ff1b35bda8768aa6c479acf59f0f *DESCRIPTION
+068d370bd8161c1c02778cff38ebcf92 *DESCRIPTION
 eb2345cdcac3c0567e127b5da369e442 *NAMESPACE
-6c9ca8b924fdc4504b47f7cf016cee72 *NEWS.md
+95f46dafa772176a8f9458aaad241b29 *NEWS.md
 8c37d1674403b08a68fef728690a7d44 *R/RANN-package.R
-91c0785e713014c51273329f89672363 *R/nn.R
+c6f2bce9240bbc3a757add2d20451b29 *R/nn.R
 38acc7479b8ce04803d023f617ca0a8f *R/zzz.R
 a526e4b7f554b1eb8bb5b33d60cfb13d *README.md
 0eca9300bc7f9d6f6f0a8e92698fc0f3 *inst/COPYRIGHT
-ca10d9d35f9dd5b68cc1361529b28ff2 *man/RANN-package.Rd
-4684af6f3e2f5e08d8135c3166982afd *man/nn2.Rd
+95d4440623a1681c2fd6a4e5b0e2c098 *man/RANN-package.Rd
+b596091714e428b5134bcef450150ce8 *man/nn2.Rd
 93c1a563d8330d0329835411c28d721f *src/Makevars
 5b38282643c4609da88ab4f7ca8d45c3 *src/Makevars.win
 6248c63d704435bc73ce744fb937d562 *src/NN.cc
@@ -39,4 +39,4 @@ d412681fdefb6fad8061db1c69d88a4e *src/vendor/ann/kd_util.h
 bddf592cc6650ebaa815338ad8a0fb63 *src/vendor/ann/pr_queue.h
 c57d5df3e3b47a47c6776fcf57556919 *src/vendor/ann/pr_queue_k.h
 b33a308790520f63dfa27661bddc3aec *tests/testthat.R
-4ef4b9a6f10938db56480e066b351103 *tests/testthat/test-nn.R
+2ab5867d5ac82ca5b147d2d77561457b *tests/testthat/test-nn.R
